@@ -9,19 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var sidebar_component_1 = require('./common/sidebar.component');
-var AppComponent = (function () {
-    function AppComponent() {
+var sidebar_service_1 = require('./sidebar.service');
+var SidebarComponent = (function () {
+    function SidebarComponent(sidebarService) {
+        this.title = "This is a sidebar";
+        this.sidebarItems = sidebarService.getSidebarItems();
     }
-    AppComponent = __decorate([
+    SidebarComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n                <div>Main</div>\n<sidebar></sidebar>\n              ",
-            directives: [sidebar_component_1.SidebarComponent]
+            selector: 'sidebar',
+            template: "<div>{{title}}</div>\n    <ul>\n<li *ngFor=\"#item of sidebarItems\">\n{{item}}\n</li>\n</ul>",
+            providers: [sidebar_service_1.SidebarService]
         }), 
-        __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+        __metadata('design:paramtypes', [sidebar_service_1.SidebarService])
+    ], SidebarComponent);
+    return SidebarComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.SidebarComponent = SidebarComponent;
+//# sourceMappingURL=sidebar.component.js.map
