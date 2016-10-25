@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @angular/router
+20 silly mapToRegistry name @angular/router
+21 silly mapToRegistry scope (from package name) @angular
+22 verbose mapToRegistry no registry URL found in name for scope @angular
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+26 verbose request uri https://registry.npmjs.org/@angular%2frouter
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 12:50:05 PM
+29 verbose request id 9d9e9830d4a969cf
+30 verbose etag "6C9QLPCIWS71O1RKNKJLMICC6"
+31 http request GET https://registry.npmjs.org/@angular%2frouter
+32 http 304 https://registry.npmjs.org/@angular%2frouter
+33 verbose headers { 'cache-control': 'max-age=0',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Tue, 25 Oct 2016 04:50:00 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1477371000.369744,VS0,VE454',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 silly get cb [ 304,
+34 silly get   { 'cache-control': 'max-age=0',
+34 silly get     'accept-ranges': 'bytes',
+34 silly get     date: 'Tue, 25 Oct 2016 04:50:00 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-hkg6821-HKG',
+34 silly get     'x-cache': 'MISS',
+34 silly get     'x-cache-hits': '0',
+34 silly get     'x-timer': 'S1477371000.369744,VS0,VE454',
+34 silly get     vary: 'Accept-Encoding' } ]
+35 verbose etag https://registry.npmjs.org/@angular%2frouter from cache
+36 verbose get saving @angular/router to C:\Users\mark.mendoza\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252frouter\.cache.json
+37 silly fetchPackageMetaData Error: No compatible version found: @angular/router@2.0.0-rc.5
+37 silly fetchPackageMetaData Valid install targets:
+37 silly fetchPackageMetaData ["3.2.0-beta.0","3.1.1","3.1.0","3.1.0-rc.0","3.1.0-beta.0","3.0.2","3.0.1","3.0.0","3.0.0-rc.3","3.0.0-rc.2","3.0.0-rc.1","3.0.0-beta.2","3.0.0-beta.1","3.0.0-alpha.8","3.0.0-alpha.7","3.0.0-alpha.6","3.0.0-alpha.5","3.0.0-alpha.4","3.0.0-alpha.3","3.0.0-alpha.2","3.0.0-alpha.1","3.0.0-alpha.0","2.0.0-rc.2","2.0.0-rc.1","2.0.0-rc.0","0.2.0","0.1.0","0.0.1","0.0.0-7","0.0.0-6","0.0.0-5","0.0.0-4","0.0.0-3","0.0.0-2","0.0.0-1","0.0.0-0"]
+37 silly fetchPackageMetaData
+37 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\lib\fetch-package-metadata.js:146:16)
+37 silly fetchPackageMetaData     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\iferr\index.js:13:50
+37 silly fetchPackageMetaData     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\lib\utils\pulse-till-done.js:19:8
+37 silly fetchPackageMetaData     at saved (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\lib\cache\caching-client.js:168:7)
+37 silly fetchPackageMetaData     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+37 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:82:15)
+37 silly fetchPackageMetaData  error for @angular/router@2.0.0-rc.5 [Error: No compatible version found: @angular/router@2.0.0-rc.5
+37 silly fetchPackageMetaData Valid install targets:
+37 silly fetchPackageMetaData ["3.2.0-beta.0","3.1.1","3.1.0","3.1.0-rc.0","3.1.0-beta.0","3.0.2","3.0.1","3.0.0","3.0.0-rc.3","3.0.0-rc.2","3.0.0-rc.1","3.0.0-beta.2","3.0.0-beta.1","3.0.0-alpha.8","3.0.0-alpha.7","3.0.0-alpha.6","3.0.0-alpha.5","3.0.0-alpha.4","3.0.0-alpha.3","3.0.0-alpha.2","3.0.0-alpha.1","3.0.0-alpha.0","2.0.0-rc.2","2.0.0-rc.1","2.0.0-rc.0","0.2.0","0.1.0","0.0.1","0.0.0-7","0.0.0-6","0.0.0-5","0.0.0-4","0.0.0-3","0.0.0-2","0.0.0-1","0.0.0-0"]
+37 silly fetchPackageMetaData ]
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Starting
+41 silly runTopLevelLifecycles Finishing
+42 silly install printInstalled
+43 verbose stack Error: No compatible version found: @angular/router@2.0.0-rc.5
+43 verbose stack Valid install targets:
+43 verbose stack ["3.2.0-beta.0","3.1.1","3.1.0","3.1.0-rc.0","3.1.0-beta.0","3.0.2","3.0.1","3.0.0","3.0.0-rc.3","3.0.0-rc.2","3.0.0-rc.1","3.0.0-beta.2","3.0.0-beta.1","3.0.0-alpha.8","3.0.0-alpha.7","3.0.0-alpha.6","3.0.0-alpha.5","3.0.0-alpha.4","3.0.0-alpha.3","3.0.0-alpha.2","3.0.0-alpha.1","3.0.0-alpha.0","2.0.0-rc.2","2.0.0-rc.1","2.0.0-rc.0","0.2.0","0.1.0","0.0.1","0.0.0-7","0.0.0-6","0.0.0-5","0.0.0-4","0.0.0-3","0.0.0-2","0.0.0-1","0.0.0-0"]
+43 verbose stack
+43 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\lib\fetch-package-metadata.js:146:16)
+43 verbose stack     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\iferr\index.js:13:50
+43 verbose stack     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\lib\utils\pulse-till-done.js:19:8
+43 verbose stack     at saved (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\lib\cache\caching-client.js:168:7)
+43 verbose stack     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+43 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+44 verbose cwd C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\Angular2Mvc5Application1
+45 error Windows_NT 6.3.9600
+46 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
+47 error node v5.4.1
+48 error npm  v3.3.4
+49 error No compatible version found: @angular/router@2.0.0-rc.5
+49 error Valid install targets:
+49 error ["3.2.0-beta.0","3.1.1","3.1.0","3.1.0-rc.0","3.1.0-beta.0","3.0.2","3.0.1","3.0.0","3.0.0-rc.3","3.0.0-rc.2","3.0.0-rc.1","3.0.0-beta.2","3.0.0-beta.1","3.0.0-alpha.8","3.0.0-alpha.7","3.0.0-alpha.6","3.0.0-alpha.5","3.0.0-alpha.4","3.0.0-alpha.3","3.0.0-alpha.2","3.0.0-alpha.1","3.0.0-alpha.0","2.0.0-rc.2","2.0.0-rc.1","2.0.0-rc.0","0.2.0","0.1.0","0.0.1","0.0.0-7","0.0.0-6","0.0.0-5","0.0.0-4","0.0.0-3","0.0.0-2","0.0.0-1","0.0.0-0"]
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
