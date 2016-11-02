@@ -166,8 +166,11 @@
     <Compile Include="Models\Validation\ModelStateWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\common\header\header.html" />
     <Content Include="app\main.html" />
+    <Content Include="app\space\info.html" />
     <Content Include="app\space\space.html" />
+    <Content Include="app\space\welcome\welcome.html" />
     <Content Include="Content\css\animate.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\font-awesome.css" />
@@ -266,10 +269,10 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
-    <TypeScriptCompile Include="app\common\sidebar.component.ts" />
-    <TypeScriptCompile Include="app\common\sidebar.service.ts" />
+    <TypeScriptCompile Include="app\common\header\header.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\space\space.component.ts" />
+    <TypeScriptCompile Include="app\space\welcome\welcome.component.ts" />
     <TypeScriptCompile Include="Scripts\Enums.ts">
       <DependentUpon>TypeLite.Net4.tt</DependentUpon>
     </TypeScriptCompile>

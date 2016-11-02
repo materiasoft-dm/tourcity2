@@ -1,0 +1,21 @@
+﻿<div class="welcome-room">
+    <a href="javascript:void(0)" class="edit-link" title="edit"><i class="fa fa-pencil" aria-hidden="true"  (click)="showEdit()"></i></a>
+    <div class="live-content" id="welcome-display" *ngIf="!editing">
+        <h5>{{content.title}}</h5>
+        <div>
+            {{content.description}}
+        </div>
+    </div>
+    <div class="edit-content" id="welcome-edit" *ngIf="editing">
+        <div class="ec-inner">
+            <label>Title</label>
+            <input type="text" />
+            <label>Description</label>
+            <textarea></textarea>
+            <div class="commands">
+                <a href="javascript:void(0)" class="button-general button-epic">Save</a>
+                <a href="javascript:void(0)" class="button-general button-normal" (click)="hideEdit()">Cancel</a>
+            </div>
+        </div>
+    </div>
+</div>

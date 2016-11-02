@@ -9,20 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var header_component_1 = require('./../common/header/header.component');
-var welcome_component_1 = require('./welcome/welcome.component');
-var SpaceComponent = (function () {
-    function SpaceComponent() {
+var HeaderComponent = (function () {
+    function HeaderComponent() {
     }
-    SpaceComponent = __decorate([
+    HeaderComponent = __decorate([
         core_1.Component({
-            selector: 'space-section',
-            directives: [header_component_1.HeaderComponent, welcome_component_1.WelcomeComponent],
-            templateUrl: './app/space/space.html'
+            selector: 'header-component',
+            templateUrl: './app/common/header/header.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], SpaceComponent);
-    return SpaceComponent;
+    ], HeaderComponent);
+    return HeaderComponent;
 }());
-exports.SpaceComponent = SpaceComponent;
-//# sourceMappingURL=space.component.js.map
+exports.HeaderComponent = HeaderComponent;
+//# sourceMappingURL=header.component.js.map
