@@ -9,10 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var space_service_1 = require('./../space.service');
+var forms_1 = require('@angular/forms');
 var WelcomeComponent = (function () {
-    function WelcomeComponent() {
+    function WelcomeComponent(spaceService) {
+        this.spaceService = spaceService;
         this.editing = false;
-        this.content = { title: 'zxcvzxcvzxc', description: 'asdfsadf' };
+        this.content = { Id: 0, Name: '', IsActive: true, Title: '', Description: '' };
+        this.getSpace();
     }
     WelcomeComponent.prototype.showEdit = function () {
         this.editing = true;
@@ -20,12 +24,24 @@ var WelcomeComponent = (function () {
     WelcomeComponent.prototype.hideEdit = function () {
         this.editing = false;
     };
+    WelcomeComponent.prototype.saveWelcome = function () {
+        var _this = this;
+        this.spaceService.updateSpace(this.content)
+            .subscribe(function (space) { return _this.content = space; }, function (error) { return error; });
+        this.hideEdit();
+    };
+    WelcomeComponent.prototype.getSpace = function () {
+        var _this = this;
+        this.spaceService.getSpace(1)
+            .subscribe(function (space) { return _this.content = space; }, function (error) { return error; });
+    };
     WelcomeComponent = __decorate([
         core_1.Component({
             templateUrl: './app/space/welcome/welcome.html',
-            selector: 'welcomeComponent'
+            selector: 'welcomeComponent',
+            providers: [space_service_1.SpaceService, forms_1.FormsModule]
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [space_service_1.SpaceService])
     ], WelcomeComponent);
     return WelcomeComponent;
 }());

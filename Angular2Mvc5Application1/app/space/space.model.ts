@@ -1,6 +1,7 @@
-﻿//This class defines the whole space
-//this should match the class on the .Net object
-
-export class Space {
-
+﻿export interface Space {
+    Id: number;
+    Name: string;
+    Title: string;
+    Description: string;
+    IsActive: boolean;
 }

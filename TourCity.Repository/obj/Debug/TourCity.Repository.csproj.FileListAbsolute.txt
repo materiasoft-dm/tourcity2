@@ -1,0 +1,67 @@
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.dll.config
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.pdb
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.csprojResolveAssemblyReference.cache
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.pdb
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\SQLite.CodeFirst.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.dll.config
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.pdb
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\SQLite.CodeFirst.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.xml
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.xml
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.csprojResolveAssemblyReference.cache
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.pdb
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.pdb
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.pdb
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.dll.config
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Repository.pdb
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\SQLite.CodeFirst.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.pdb
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.xml
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\System.Data.SQLite.xml
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.csprojResolveAssemblyReference.cache
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.dll
+C:\Users\reym\Desktop\tourcity\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.pdb
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\TourCity.Repository.dll.config
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\TourCity.Repository.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\TourCity.Repository.pdb
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\EntityFramework.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\SQLite.CodeFirst.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\System.Data.SQLite.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\TourCity.Common.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\TourCity.Common.pdb
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\EntityFramework.xml
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\obj\Debug\TourCity.Repository.csprojResolveAssemblyReference.cache
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\obj\Debug\TourCity.Repository.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Repository\obj\Debug\TourCity.Repository.pdb

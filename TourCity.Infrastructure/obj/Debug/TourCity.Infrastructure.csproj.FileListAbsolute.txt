@@ -1,0 +1,9 @@
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\obj\Debug\TourCity.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\bin\Debug\TourCity.Infrastructure.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\bin\Debug\TourCity.Infrastructure.pdb
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\bin\Debug\AutoMapper.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\bin\Debug\TourCity.Common.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\bin\Debug\TourCity.Common.pdb
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\bin\Debug\AutoMapper.xml
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\obj\Debug\TourCity.Infrastructure.dll
+C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Infrastructure\obj\Debug\TourCity.Infrastructure.pdb
