@@ -11,13 +11,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var header_component_1 = require('./../common/header/header.component');
 var welcome_component_1 = require('./welcome/welcome.component');
+var add_space_1 = require('./addspace/add.space');
+var forms_1 = require('@angular/forms');
 var SpaceComponent = (function () {
     function SpaceComponent() {
+        this.modalVisible = false;
     }
+    SpaceComponent.prototype.showModal = function () {
+        this.modalVisible = true;
+    };
+    SpaceComponent.prototype.hideModal = function () {
+        this.modalVisible = false;
+    };
     SpaceComponent = __decorate([
         core_1.Component({
             selector: 'space-section',
-            directives: [header_component_1.HeaderComponent, welcome_component_1.WelcomeComponent],
+            directives: [header_component_1.HeaderComponent, welcome_component_1.WelcomeComponent, add_space_1.AddSpaceModal],
+            providers: [forms_1.FormsModule],
             templateUrl: './app/space/space.html'
         }), 
         __metadata('design:paramtypes', [])

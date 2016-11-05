@@ -2,10 +2,10 @@
 /*Roboto Thin*/
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/roboto/Roboto-Thin.eot');
-    src: url('../fonts/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/roboto/Roboto-Thin.woff') format('woff'),
-        url('../fonts/roboto/Roboto-Thin.ttf') format('truetype');
+    src: url('../fonts/Roboto-Thin.eot');
+    src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Thin.woff') format('woff'),
+        url('../fonts/Roboto-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
@@ -72,28 +72,53 @@ body {
     font-size: 1.2em;
     line-height: 1.5em;
     color: #2f2f2f;
+    position: relative;
 }
 h1,h2,h3,h4,h5,h6 {font-family: "Roboto"; margin: 0; font-weight: normal;}
 a {
-    color: #f6b33e;
+    color: #198adf;
     transition: 0.1s all linear;
     -webkit-transition: 0.1s all linear;
     -moz-transition: 0.1s all linear;
     -ms-transition: 0.1s all linear;
+    font-size: 14px;
 }
 a:hover {text-decoration: none; color: #999999;}
 a:focus, a:active {text-decoration: none;}
 
 /*GENERAL*/
+
+.field-errors {}
+span.field-error {margin-top: 0; color: #e62117; font-size: 10px;}
+
+
+
+/*HEADER*/
 .header-main {}
 .header-main {position: relative; height: 45px; background: #fff; border-bottom: 1px solid #ddd;}
 .header-main .left-bar {width: 250px; height: 100%; background: #198adf; position: absolute; top: 0; left: 0; z-index: 1000;}
 .header-main .left-bar .side-menu {position: relative;}
 .header-main .left-bar .side-menu a.hb-link {color: #14629d; font-size: 1.7em; margin: 12px 0 0 25px; float: left}
-.header-main .left-bar .side-menu .hb-menu {display: none; position: absolute;}
-.header-main .left-bar .side-menu .hb-menu ul {}
-.header-main .left-bar .side-menu .hb-menu ul li {}
-.header-main .left-bar .side-menu .hb-menu ul li a {}
+.hb-menu {position: absolute; width: 250px; height: 100%;}
+.hb-menu .hb-inner {background: #fff; height: 100%; padding: 15px 0; border-right: 1px solid #d2dbde;}
+.hb-menu .hb-inner ul {}
+.hb-menu .hb-inner ul li {}
+.hb-menu .hb-inner ul li a {font-size: 15px; font-weight: 300; color: #222222; display: block; padding: 10px 20px;}
+.hb-menu .hb-inner ul li a:hover {background: #f1f1f1;}
+.hb-menu .hb-inner ul li a i {margin-right: 20px; opacity: 0.5; -webkit-transition: 0.1s all linear; -moz-transition: 0.1s all linear; -ms-transition: 0.1s all linear;}
+.hb-menu .hb-inner ul li a:hover i {opacity: 1;}
+.hb-menu .hb-inner .main-links {border-bottom: 1px solid #d2dbde; padding-bottom: 15px; margin-bottom: 15px;}
+.hb-menu .hb-inner .main-links ul {}
+.hb-menu .hb-inner .main-links ul li {}
+.hb-menu .hb-inner .main-links ul li a {}
+.hb-menu .hb-inner .cat-links {border-bottom: 1px solid #d2dbde; padding-bottom: 15px; margin-bottom: 15px;}
+.hb-menu .hb-inner .cat-links h3 {color: #198adf; font-weight: normal; font-size: 12px; padding: 10px 15px 0 20px; margin-bottom: 10px; text-transform: uppercase;}
+.hb-menu .hb-inner .cat-links ul {}
+.hb-menu .hb-inner .cat-links ul li {}
+.hb-menu .hb-inner .cat-links ul li a {}
+.hb-menu .hb-inner .set-links ul {}
+.hb-menu .hb-inner .set-links ul li {}
+.hb-menu .hb-inner .set-links ul li a {}
 .header-main .left-bar .logo {float: left; margin: 12px 0 0 45px;}
 .header-main .left-bar .logo a {color: #fff; font-size: 2em; font-weight: 300;}
 .header-main .left-bar .logo a strong {}
@@ -102,9 +127,12 @@ a:focus, a:active {text-decoration: none;}
 .header-main .right-bar .ua-menu a.ua-link {display: block; width: 30px; height: 30px; border-radius: 20px; background: url(../images/user/1.jpg) no-repeat; background-size: 100%;}
 
 .space-room {padding: 20px;}
-.space {margin: 30px auto 0 auto; max-width: 830px; overflow: hidden; padding: 0 600px 0 0; background: #fff; border: 1px solid #e1e3e3; border-radius: 2px;}
+.space {margin: 0 auto 0 auto; max-width: 830px; overflow: hidden; padding: 0 600px 0 0; background: #fff; border: 1px solid #e1e3e3; border-radius: 2px;}
 .space .ls {padding-bottom: 99999px; margin-bottom: -99999px; float: left; width: 100%; background: #fafafa; border-right: 1px solid #e3e3e3;}
-.space .ls .badge {padding: 0 10px; text-align: center;}
+.space .ls .badge {position: relative; padding: 0 10px; text-align: center;}
+.space .ls .badge a.edit-photo {display: inline-block; border-radius: 100px; background: #f1f1f1; text-align: right; width: 30px; height: 30px; padding: 7px; position: absolute; top: 10px; right: 10px; color: #999;}
+.space .ls .badge a.edit-photo:hover {background: #198adf; color: #fff;}
+
 .space .ls .badge .dp {padding-top: 20px; width: 100%; text-align: center; margin-bottom: 10px;}
 .space .ls .badge .dp img {width: 150px;}
 .space .ls .badge h3 {font-weight: normal; font-size: 1.6em; margin-bottom: 5px;}
@@ -123,17 +151,23 @@ a:focus, a:active {text-decoration: none;}
 /*General*/
 .space .s-sections .section-box .sb-header {padding: 12px 15px 0 20px; border-bottom: 1px solid #e3e3e3; margin-bottom: 10px;}
 .space .s-sections .section-box .sb-header h4 {font-weight: normal; display: inline-block; padding-bottom: 15px; font-size: 1.4em; border-bottom: 1px solid #999; position: relative; top: 1px;}
+
 /*Welcome*/
-.space .s-sections .section-box .banner-screen {width: 100%;  padding: 5px;}
+.space .s-sections .section-box .banner-screen {width: 100%;  padding: 5px; position: relative;}
+.space .s-sections .section-box .banner-screen a.edit-banner {display: inline-block; border-radius: 100px; background: #f1f1f1; text-align: right; width: 30px; height: 30px; padding: 7px; position: absolute; top: 10px; right: 10px; color: #999;}
+.space .s-sections .section-box .banner-screen a.edit-banner:hover {background: #198adf; color: #fff;}
+.space .s-sections .section-box .banner-screen a.embed-video {display: inline-block; border-radius: 100px; background: #f1f1f1; text-align: right; width: 30px; height: 30px; padding: 7px 8px; position: absolute; top: 10px; right: 50px; color: #999;}
+.space .s-sections .section-box .banner-screen a.embed-video:hover {background: #198adf; color: #fff;}
 .space .s-sections .section-box .banner-screen .banner {width: 100%; height: 250px; background-size: 100%; background: url(../images/space/restaurants/2.jpg) no-repeat;}
 .space .s-sections .section-box .social-bar {padding: 10px 20px 13px 20px; border-bottom: 1px solid #eaeaea;}
 .space .s-sections .section-box .social-bar .recommend {float: left;}
 .space .s-sections .section-box .social-bar .recommend a.recommend-button {display: inline-block; background: #198adf; padding: 6px 10px; border-radius: 3px; color: #fff; margin-right: 5px;}
 .space .s-sections .section-box .social-bar .recommend span.recommend-count {font-size: 1.1em; opacity: 0.9;}
-.space .s-sections .section-box .social-bar .social-links {float: right; margin-top: 8px;}
-.space .s-sections .section-box .social-bar .social-links ul {}
+.space .s-sections .section-box .social-bar .social-links {float: right; margin-top: 5px;}
+.space .s-sections .section-box .social-bar .social-links span.share-label {position: relative; top: -3px; display: inline-block; font-size: 1.1em; opacity: 0.9;}
+.space .s-sections .section-box .social-bar .social-links ul {display: inline-block; }
 .space .s-sections .section-box .social-bar .social-links ul li {display: inline-block;}
-.space .s-sections .section-box .social-bar .social-links ul li a {font-size: 1.4em; margin-left: 10px;}
+.space .s-sections .section-box .social-bar .social-links ul li a {font-size: 1.7em; margin-left: 10px;}
 .space .s-sections .section-box .social-bar .social-links ul li.facebook a i {color: #4267b2;}
 .space .s-sections .section-box .social-bar .social-links ul li.twitter a i {color: #1da1f2;}
 .space .s-sections .section-box .social-bar .social-links ul li.youtube a i {color: #e62117;}
@@ -149,11 +183,13 @@ a:focus, a:active {text-decoration: none;}
 .space .s-sections .section-box .welcome-room .edit-content {padding: 20px; background: #f5f5f5;}
 .space .s-sections .section-box .welcome-room .edit-content .ec-inner {}
 .space .s-sections .section-box .welcome-room .edit-content .ec-inner label {font-weight: normal; font-size: 14px; margin-bottom: 5px; display: block;}
-.space .s-sections .section-box .welcome-room .edit-content .ec-inner input {width: 100%; display: block; font-size: 14px; padding: 5px 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 2px;}
-.space .s-sections .section-box .welcome-room .edit-content .ec-inner textarea {width: 100%; padding: 5px 10px; font-size: 14px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 2px;}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner input {width: 100%; display: block; font-size: 14px; padding: 7px 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 2px;}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner textarea {width: 100%!important; min-height: 100px; padding: 7px 10px; font-size: 14px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 2px;}
 .space .s-sections .section-box .welcome-room .edit-content .ec-inner .commands {padding-top: 10px;}
-.space .s-sections .section-box .commands a.button-epic {display: inline-block; background: #198adf; border: 1px solid #198adf; padding: 5px 20px; border-radius: 3px; color: #fff; margin-right: 5px;}
-.space .s-sections .section-box .commands a.button-normal {display: inline-block; background: #ddd; border: 1px solid #aaa; padding: 5px 20px; border-radius: 3px; color: #333; margin-right: 5px;}
+.space .s-sections .section-box .commands a.button-epic {display: inline-block; border: 1px solid #198adf; color: #198adf; padding: 5px 20px; border-radius: 3px; margin-right: 5px;}
+.space .s-sections .section-box .commands a.button-epic:hover {background: #198adf; color: #fff;}
+.space .s-sections .section-box .commands a.button-normal {display: inline-block; border: 1px solid #ccc; padding: 5px 20px; border-radius: 3px; color: #555; margin-right: 5px;}
+.space .s-sections .section-box .commands a.button-normal:hover {background: #ccc;}
 /*Info*/
 .space .s-sections .info {}
 .space .s-sections .info .fields {}
@@ -172,4 +208,54 @@ a:focus, a:active {text-decoration: none;}
 .space .s-sections .info .fields .field-room .edit-content textarea {width: 100%; font-size: 14px; min-height: 80px; padding: 5px 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 2px;}
 .space .s-sections .info .fields .field-room .edit-content .commands {}
 .space .s-sections .info .fields .field-room .edit-content .commands a {}
+/*Menu*/
+.space .s-sections .menu {}
+/*Map & Directions*/
+.space .s-sections .map {}
+/*Photos*/
+.space .s-sections .photos {}
 
+/*TC MODAL*/
+.tc-modal {overflow: hidden; position: absolute; z-index: 10000; width: 100%; height: 100vh;}
+.tc-modal .as-modal {}
+.tc-modal .backdrop {background: rgba(0,0,0,0.8); width: 100%; height: 100vh;}
+.tc-modal .backdrop .tc-modal-room {}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner {width: 400px; position: relative; background: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 2px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner a.tc-modal-close {position: absolute; top: 15px; right: 15px; color: #999;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner a.tc-modal-close:hover {color: #198adf;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-header {padding: 12px 15px 0 20px; border-bottom: 1px solid #e3e3e3; margin-bottom: 10px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-header h2 {font-weight: normal; display: inline-block; padding-bottom: 15px; font-size: 1.4em; border-bottom: 1px solid #999; position: relative; top: 1px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-body {padding: 20px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-body .field {margin-bottom: 20px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-body .field label {font-weight: normal; font-size: 14px; margin-bottom: 5px; display: block;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-body .field input {width: 100%; display: block; font-size: 14px; padding: 7px 10px; border: 1px solid #ddd; border-radius: 2px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-body .field select {width: 100%; display: block; font-size: 14px; padding: 7px 10px; border: 1px solid #ddd; border-radius: 2px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-commands {text-align: right; padding: 12px 15px 0 20px; border-top: 1px solid #e3e3e3; margin-bottom: 10px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-commands a.tc-modal-button {display: inline-block; padding: 4px 20px; text-align: center; border-radius: 2px; font-weight: normal; font-size: 13px; margin-left: 5px;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-commands a.tc-modal-button.epic {border: 1px solid #198adf; color: #198adf;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-commands a.tc-modal-button.epic:hover {background: #198adf; color: #fff;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-commands a.tc-modal-button.normal {border: 1px solid #ccc; color: #555;}
+.tc-modal .backdrop .tc-modal-room .tc-modal-inner .tc-modal-commands a.tc-modal-button.normal:hover {background: #ccc;}
+
+
+
+
+
+
+
+
+
+/*OTHER GENERAL*/
+.video-box {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.video-box iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

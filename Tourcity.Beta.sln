@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular2Mvc5Application1", "Angular2Mvc5Application1\Angular2Mvc5Application1.csproj", "{DCDBF716-31D8-4D3E-96F0-13EA00E46CBC}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourCity.Infrastructure", "TourCity.Infrastructure\TourCity.Infrastructure.csproj", "{76365FE1-B931-4108-B878-A03B7223AD05}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourCity.Repository", "TourCity.Repository\TourCity.Repository.csproj", "{49E47FF4-0BDE-4843-BA1E-5C3C5C27DD67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FDA06086-5BC6-4748-AB47-04A7D976C499}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
