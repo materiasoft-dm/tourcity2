@@ -10,6 +10,5 @@ C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Common\obj\Debug\T
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Common\obj\Debug\TourCity.Common.pdb
 C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Common\bin\Debug\TourCity.Common.dll
 C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Common\bin\Debug\TourCity.Common.pdb
-C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Common\obj\Debug\TourCity.Common.csprojResolveAssemblyReference.cache
 C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Common\obj\Debug\TourCity.Common.dll
 C:\Users\mark.mendoza\Documents\Visual Studio 2015\Projects\Angular2Mvc5Application1\TourCity.Common\obj\Debug\TourCity.Common.pdb

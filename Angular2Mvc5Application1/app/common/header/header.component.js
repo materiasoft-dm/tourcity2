@@ -9,13 +9,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var add_space_1 = require('../../space/addspace/add.space');
 var HeaderComponent = (function () {
     function HeaderComponent() {
     }
+    HeaderComponent.prototype.showModal = function () {
+        debugger;
+        this.modal.modalVisible = true;
+    };
+    HeaderComponent.prototype.hideModal = function () {
+        this.modal.modalVisible = false;
+    };
+    __decorate([
+        core_1.ViewChild(add_space_1.AddSpaceModal), 
+        __metadata('design:type', add_space_1.AddSpaceModal)
+    ], HeaderComponent.prototype, "modal", void 0);
     HeaderComponent = __decorate([
         core_1.Component({
             selector: 'header-component',
-            templateUrl: './app/common/header/header.html'
+            templateUrl: './app/common/header/header.html',
+            directives: [add_space_1.AddSpaceModal]
         }), 
         __metadata('design:paramtypes', [])
     ], HeaderComponent);

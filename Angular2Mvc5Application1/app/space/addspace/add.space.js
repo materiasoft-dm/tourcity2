@@ -11,7 +11,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var AddSpaceModal = (function () {
     function AddSpaceModal() {
+        this.modalVisible = false;
     }
+    AddSpaceModal.prototype.showModal = function () {
+        this.modalVisible = true;
+    };
+    AddSpaceModal.prototype.hideModal = function () {
+        this.modalVisible = false;
+    };
     AddSpaceModal = __decorate([
         core_1.Component({
             selector: 'addspacemodal',
