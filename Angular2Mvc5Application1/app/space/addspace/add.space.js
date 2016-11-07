@@ -22,7 +22,7 @@ var AddSpaceModal = (function () {
     AddSpaceModal = __decorate([
         core_1.Component({
             selector: 'addspacemodal',
-            templateUrl: './app/space/addspace/addspacemodal.html'
+            templateUrl: './app/space/addspace/add.space.modal.html'
         }), 
         __metadata('design:paramtypes', [])
     ], AddSpaceModal);

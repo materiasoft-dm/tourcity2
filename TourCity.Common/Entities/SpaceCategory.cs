@@ -8,12 +8,8 @@ using System.Threading.Tasks;
 
 namespace TourCity.Common.Entities
 {
-    public class BusinessCategory
+    public class SpaceCategory : EntityBase
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-
         public string Name { get; set; }
     }
 }

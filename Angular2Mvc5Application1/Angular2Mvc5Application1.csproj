@@ -182,6 +182,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SpaceCategoryController.cs" />
     <Compile Include="Controllers\SpaceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -196,7 +197,7 @@
   <ItemGroup>
     <Content Include="app\common\header\header.html" />
     <Content Include="app\main.html" />
-    <Content Include="app\space\addspace\addspacemodal.html" />
+    <Content Include="app\space\addspace\add.space.modal.html" />
     <Content Include="app\space\info\info.html" />
     <Content Include="app\space\map\map.html" />
     <Content Include="app\space\menu\menu.html" />
@@ -303,6 +304,7 @@
     <TypeScriptCompile Include="app\common\header\header.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\space\addspace\add.space.ts" />
+    <TypeScriptCompile Include="app\space\addspace\add.space.service.ts" />
     <TypeScriptCompile Include="app\space\space.component.ts" />
     <TypeScriptCompile Include="app\space\space.model.ts" />
     <TypeScriptCompile Include="app\space\space.service.ts" />

@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'addspacemodal',
-    templateUrl: './app/space/addspace/addspacemodal.html'
+    templateUrl: './app/space/addspace/add.space.modal.html'
 })
 export class AddSpaceModal {
     public modalVisible: boolean = false;
